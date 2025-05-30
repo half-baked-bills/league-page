@@ -8,9 +8,9 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Established in 2024, the Average Joe's league was the first venture into dynasty fantasy football for several of our perrenial redraft coaches. 
-  The majority of the founding league members hail from North Carolina, but competitors from the sub-reddit r/DynastyFF filled out the remaining 6 spots to establish our 12 man league.</p>
+  The majority of the founding league members hail from North Carolina, but competitors from the sub-reddit r/DynastyFF filled out the remaining 5 spots to establish our initial 12 man league.</p>
   
-  <p>Each season coaches battle it out for a chance to crowned league champion, immortalized with their name on our league plaque for all time (and a cash prize of $290).</p>
+  <p>Each season coaches battle it out for a chance to crowned league champion, immortalized with their name on our league plaque for all time (and the top cash prize of $290).</p>
 `;
 
 /*   STEP 3   */
