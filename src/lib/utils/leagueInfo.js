@@ -69,6 +69,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1125299703018582016",
       "name": "(Friggiddyfresh)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
@@ -90,6 +91,7 @@ export const managers = [
     },
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1052499134642524160",
       "name": "(weezyforsheazy)",
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -111,6 +113,7 @@ export const managers = [
     },
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "998096790496919552",
       "name": "(TantoTy)",
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
@@ -132,6 +135,7 @@ export const managers = [
     },
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "742824936959574016",
       "name": "(AppFan84)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
@@ -153,6 +157,7 @@ export const managers = [
     },
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "71688640975486976",
       "name": "(DenverZD)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
@@ -174,6 +179,7 @@ export const managers = [
     },
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "996582816697704448",
       "name": "(bferling)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
@@ -195,6 +201,7 @@ export const managers = [
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "837529565575380992",
       "name": "(st3w11)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
@@ -216,6 +223,7 @@ export const managers = [
     },
     {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "697581086187778048",
       "name": "(LosVancouver)",
       "location": "Vancouver?", // (optional)
       "bio": "Lorem ipsum...",
@@ -237,6 +245,7 @@ export const managers = [
     },
     {
       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1054444776017252352",
       "name": "(Bobbeck)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
@@ -258,6 +267,7 @@ export const managers = [
     },
     {
       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID": "1084277643949813760",
       "name": "(mariesman)",
       "location": "NC", // (optional)
       "bio": "Lorem ipsum...",
