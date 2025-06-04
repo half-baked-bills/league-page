@@ -5,6 +5,13 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "Keep Trade Cut",
+            url: "https://keeptradecut.com/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
