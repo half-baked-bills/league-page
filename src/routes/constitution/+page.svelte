@@ -97,6 +97,7 @@
 
 <div class="constitution">
     <h1 class="noUnderscore">Average Joe's League Constitution</h1>
+    <p> The golden rule - Don't be a dick. Shit-talking and regular sportsmanlike banter is fine but no racism or bigotry will be tolerated. One warning before being ejected with no refund for repeat violation of this rule.</p>
     
     <h2 class="noUnderscore">Table of Contents</h2>
     
@@ -120,6 +121,7 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourThree)}>4.3 Empire Rule</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
@@ -136,11 +138,12 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Dues</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
-    
+
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: League Changelog</h3>
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1 - Roster Breakdown</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
         
@@ -195,7 +198,7 @@
     
 
 
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
+    <h2 class="sectionHeading" bind:this={two}>Section 2 - Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The rookie draft order will be decided by team reverse max points for. The bottom six teams will be assigned draft picks 1-6 based on their max PF value of the regular season only, with the lowest scoring team assigned the first overall pick.
@@ -212,12 +215,14 @@
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3 - Scoring System</h2>
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
     <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
+
+
+
+    <h2 class="sectionHeading" bind:this={four}>Section 4 - Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
     <p>At the end of the season, 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top two seeded teams will earn a bye week for the first round of playoffs.</p>
@@ -233,12 +238,17 @@
         <li>Duel to the death</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h3 bind:this={fourThree}>4.3 Empire Rule</h3>
+    <p>If the same team/manager wins three consecutive years in a row, it will trigger an automatic full league redraft the following season.</p>
+
+
+    <h2 class="sectionHeading" bind:this={five}>Section 5 - Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
     <p>Our draft positions are based on max PF, so leaving your roster empty does you no good in the long run. Please set a full lineup if you are able to do so to keep the league competitve. If you truely want to tank for draft position, the best way to do that is to trade away the players on your roster scoring points.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+
+    <h2 class="sectionHeading" bind:this={six}>Section 6 - Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally not grounds for removal.</p>
@@ -249,10 +259,11 @@
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
     <p>In the event that a manager chooses to quit the league or is removed by a comissioner, the replacement manager will be granted all dues already paid by the leaving manager.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+
+    <h2 class="sectionHeading" bind:this={seven}>Section 7 - League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at $40 per season. Dues are collected through leaguesafe and a link to the latest leaguesafe account will be provided. All managers must be fully paid up before the start of the rookie draft.</p>
+    <p>League dues are set at $40 per season and will always be paid for one season in advance. Dues are collected through leaguesafe and a link to the latest leaguesafe account will be provided. All managers must be fully paid up before the start of the rookie draft.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows, total pot: $480</p>
@@ -263,7 +274,13 @@
         <li>admin fees (trophies, plates, website): $20</li>
     </ul>
     
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <h3 bind:this={sevenThree}>7.3 Raising Dues & Changing League Rules</h3>
+    <p>A 7/12th majority vote is required in order to raise league dues, change a current league rule, or implement a new league rule. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
+
+    <h2 class="sectionHeading" bind:this={eight}>Section 8 - League Changelog</h2>
+
+    <ul>
+        <li> 2025/01/29 - Third place payout was added for $50 (removed the $40 payout that went to the regular season winner to accomodate the change)</li>
+    </ul>
 </div>
