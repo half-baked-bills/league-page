@@ -113,6 +113,7 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Third Round Compensatory Picks</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
@@ -214,6 +215,9 @@
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rookie drafts will consist of 4 rounds of drafting, with unlimited time for each pick. To make room for the incoming players, benches will be expanded by (4) spots at the conclusion of the rookie draft. These spots will be removed before the start of the regular season, at which point you will need to have cut the necessary players.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+
+    <h3 bind:this={twoThree}>2.3 Third Round Compensatory Picks</h3>
+    <p>The winner of the loser bracket (Toilet Bowl) will be given an additional pick during the rookie draft, pick 3.13. This pick cannot be traded, as it will be manually added to the manager's roster during the rookie draft by the commissioner. Additional compensatory picks may be awarded in the future.</p>
     
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 - Scoring System</h2>
