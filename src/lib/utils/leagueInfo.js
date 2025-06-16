@@ -29,7 +29,7 @@ export const managers = [
       "name": "Luke Espinosa (Half_Baked)",
       "location": "Raleigh, NC", // (optional)
       "bio": "Born and raised in North Carolina, I've lived in several cities across the state in my lifetime. I never considered myself a sports person until I happened to be roped into my first redraft league in 2010. From that point on, I've been an avid fan of the NFL and now participate in multiple dynasty and redraft leagues. Being from NC, you would assume my favorite team would be the Panthers - However, I latched onto the Bills as they had several of my favorite FF players on their roster and I enjoyed watching their ground-and-pound offense matched with the stout defensive line.",
-      "photo": "/managers/luke.png", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/luke_espinosa.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
