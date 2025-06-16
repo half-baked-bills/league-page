@@ -53,7 +53,7 @@ export const managers = [
       "bio": "My names Nick I run a dog rescue and have 21 dogs currently. I also run a restaurant and a coffee shop. Fantasy football is one of my only hobbies.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "sfo", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "san", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "?", // Can be anything (usually your rival's name)
@@ -268,21 +268,21 @@ export const managers = [
     {
       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1084277643949813760",
-      "name": "Harry Balz (mariesman)",
-      "location": "Mars Hill, NC", // (optional)
-      "bio": "L-I-V-I-N",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 1941, // (optional) when did the manager start playing fantasy football
+      "name": "David Long (mariesman)",
+      "location": "Winston-Salem, NC", // (optional)
+      "bio": "48 year old dad",
+      "photo": "/managers/david_long.png", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2000, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Ur Mom", // Can be anything (usually your rival's name)
-        link: null, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/question.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "Luke", // Can be anything (usually your rival's name)
+        link: 1, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/luke.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 4368, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Fun",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
