@@ -51,7 +51,7 @@ export const managers = [
       "name": "Nickolas Avram (nickav26)",
       "location": "Vail, Arizona", // (optional)
       "bio": "My names Nick I run a dog rescue and have 21 dogs currently. I also run a restaurant and a coffee shop. Fantasy football is one of my only hobbies.",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/nickolas_avram.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
